@@ -1,0 +1,14 @@
+.separator | 
+.import 1.dat Item
+.import 6.dat Category
+.import 5.dat Bid
+.import 2.dat User
+update User 
+set Country = null 
+where Country = 'NULL';
+update User 
+set Location = null 
+where Location = 'NULL';
+.import 3.dat Buyer
+.import 4.dat Seller
+
